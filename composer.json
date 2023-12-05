@@ -1,0 +1,29 @@
+{
+  "name": "misa/productfinder",
+  "description": "",
+  "keywords": [],
+  "license": "proprietary",
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "ext-zlib": "*",
+    "ext-pdo": "*",
+    "ext-sqlite3": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Misa\\ProductFinder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  }
+}
